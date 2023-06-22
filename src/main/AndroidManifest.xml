@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.provaappweatherstation">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProvaAppWeatherStation">
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SunIrradiationActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".TemperatureActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".WindActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SkyViewActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".GeneralDataActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".HumidityActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".AirQualityActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".TempWeekActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".TempMonthActivity"
+            android:exported="true">
+        </activity>
+
+
+    </application>
+
+</manifest>
