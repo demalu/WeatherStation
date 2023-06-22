@@ -6,3 +6,7 @@ _Bogoni Matteo
 _Corino Andrea
 _De Matteis Luca
 _Sarvia Giacomo
+
+
+System Architecture:
+![alt text](Architecture.png "System Architecture")
