@@ -8,5 +8,8 @@ _De Matteis Luca
 _Sarvia Giacomo
 
 
-System Architecture:
+### System Architecture:
 ![alt text](Architecture.png "System Architecture")
+
+### Result:
+![alt text](Station.jpg "Realization")
