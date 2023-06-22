@@ -12,4 +12,4 @@ _Sarvia Giacomo
 ![alt text](Architecture.png "System Architecture")
 
 ### Result:
-![alt text](station.jpg "Realization")
+![alt text](station.jpg "Realization"| width=100)
