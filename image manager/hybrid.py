@@ -123,13 +123,7 @@ def processing(img):
 
 if __name__ == "__main__":
     #-----IMAGE UPLOAD-----
-    #path = "D:/Universita/Polito/Interdisciplinary/ML/rettangolare.jpg"
-    path = "./masked_image_prova.png"
+    path = "your path"
     image = cv2.imread(path)
-    #onzero_mean = np.mean(image[image != 0])
-    #image[image == 0] = nonzero_mean
-    #cv2.imshow("image", image)
-    #cv2.waitKey(0)
-    #cv2.destroyAllWindows()
     cloudiness = processing(image)
 
