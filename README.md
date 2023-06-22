@@ -12,4 +12,4 @@ _Sarvia Giacomo
 ![alt text](Architecture.png "System Architecture")
 
 ### Result:
-![alt text](station.jpg =250x250)
+<img src="https://github.com/demalu/WeatherStation/blob/main/station.jpg" width="48">
